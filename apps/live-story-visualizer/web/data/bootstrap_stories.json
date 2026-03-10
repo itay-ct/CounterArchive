@@ -1,0 +1,4465 @@
+{
+  "stories": [
+    {
+      "story_id": "cand_c793e2c07334",
+      "title": "JA.Loc.00356 and cross-archive spatial-political links",
+      "theme": "spatial-political-relations",
+      "time_window": {
+        "min": "2026-03-04T13:16:13+00:00",
+        "max": "2026-03-04T13:16:14+00:00"
+      },
+      "location_scope": [
+        "ישראל",
+        "JA.Loc.00356",
+        "ירושלים"
+      ],
+      "summary_facts": [
+        "The cluster contains 9 linked entities around seed 'JA.Loc.00356'.",
+        "Evidence was found in 40 mentions across 9 source archives.",
+        "The strongest co-occurrence path count is 8 between place/actor nodes."
+      ],
+      "hypotheses": [
+        "This cluster may reveal planning relations crossing communal or institutional boundaries.",
+        "Contested or parallel naming patterns may indicate narrative divergence rather than data duplication."
+      ],
+      "entities": [
+        {
+          "id": "ent_3e1cf8fb28abe12c",
+          "label": "ישראל",
+          "type": "PLACE",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_46c3d0eee2320838",
+          "label": "JA.Loc.00237",
+          "type": "CONCEPT",
+          "aliases": [
+            "JA.Loc.00237"
+          ],
+          "language": "en",
+          "confidence": 0.82
+        },
+        {
+          "id": "ent_64dbfc2b58a24bd5",
+          "label": "אוסף העיר העתיקה",
+          "type": "ORG",
+          "aliases": [
+            "אוסף העיר העתיקה"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8791ff98b1cda33d",
+          "label": "אוסף קאדיר הס",
+          "type": "ORG",
+          "aliases": [
+            "אוסף קאדיר הס"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_b1298ed24c0bd81b",
+          "label": "התכנון המנדטורי",
+          "type": "ORG",
+          "aliases": [
+            "התכנון המנדטורי"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_cca57e5dab3ebc2e",
+          "label": "דיר יסין, ירושלים",
+          "type": "CONCEPT",
+          "aliases": [
+            "דיר יסין, ירושלים"
+          ],
+          "language": "he",
+          "confidence": 0.82
+        },
+        {
+          "id": "ent_cd25a794c1f5ae94",
+          "label": "JA.Loc.00356",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00356"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_d4ca8027c10202e4",
+          "label": "ירושלים",
+          "type": "PLACE",
+          "aliases": [
+            "ירושלים"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_f33bbe6a3763d096",
+          "label": "תיקי תיעוד",
+          "type": "ORG",
+          "aliases": [
+            "תיקי תיעוד"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": [
+        {
+          "source_entity": "ent_cd25a794c1f5ae94",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_d4ca8027c10202e4",
+          "confidence": 1.0
+        },
+        {
+          "source_entity": "ent_cd25a794c1f5ae94",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_b1298ed24c0bd81b",
+          "confidence": 1.0
+        },
+        {
+          "source_entity": "ent_cd25a794c1f5ae94",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_64dbfc2b58a24bd5",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "source_entity": "ent_cd25a794c1f5ae94",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8791ff98b1cda33d",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_cd25a794c1f5ae94",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_3e1cf8fb28abe12c",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "source_entity": "ent_cd25a794c1f5ae94",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_f33bbe6a3763d096",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_cd25a794c1f5ae94",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_46c3d0eee2320838",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_cd25a794c1f5ae94",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_cca57e5dab3ebc2e",
+          "confidence": 0.6000000000000001
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "items:4673",
+          "quote_or_field": "dcterms:identifier: JA.Loc.00237",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4673",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4683",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4683",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4684",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4684",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4686",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4686",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4687",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4687",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4688",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4688",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4689",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4689",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4690",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4690",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4691",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4691",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4693",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4693",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4695",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4695",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4697",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4697",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4698",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4698",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4700",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4700",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4701",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4701",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4702",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4702",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4664",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4664",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4673",
+          "quote_or_field": "dcterms:description: דיר יסין, ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4673",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4665",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4665",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4666",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4666",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4668",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4668",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4669",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4669",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4672",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4672",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4676",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4676",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "ent_cd25a794c1f5ae94",
+          "to": "ent_d4ca8027c10202e4",
+          "weight": 24.0,
+          "doc_count": 24
+        },
+        {
+          "from": "ent_cd25a794c1f5ae94",
+          "to": "ent_b1298ed24c0bd81b",
+          "weight": 19.0,
+          "doc_count": 19
+        },
+        {
+          "from": "ent_cd25a794c1f5ae94",
+          "to": "ent_64dbfc2b58a24bd5",
+          "weight": 6.0,
+          "doc_count": 6
+        },
+        {
+          "from": "ent_cd25a794c1f5ae94",
+          "to": "ent_8791ff98b1cda33d",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_cd25a794c1f5ae94",
+          "to": "ent_3e1cf8fb28abe12c",
+          "weight": 3.0,
+          "doc_count": 3
+        },
+        {
+          "from": "ent_cd25a794c1f5ae94",
+          "to": "ent_f33bbe6a3763d096",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_cd25a794c1f5ae94",
+          "to": "ent_46c3d0eee2320838",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_cd25a794c1f5ae94",
+          "to": "ent_cca57e5dab3ebc2e",
+          "weight": 1.0,
+          "doc_count": 1
+        }
+      ],
+      "uncertainty_notes": [
+        "Entity alignment preserves multilingual aliases and contested names.",
+        "Hypotheses are exploratory and require archival validation."
+      ],
+      "viz_hints": {
+        "recommended_seed": "ent_cd25a794c1f5ae94",
+        "timeline_bins": "decade",
+        "map_anchor_entities": [
+          "ent_3e1cf8fb28abe12c",
+          "ent_cd25a794c1f5ae94",
+          "ent_d4ca8027c10202e4"
+        ],
+        "edge_focus": "cross_source_bridges"
+      },
+      "quality_score": 45.0,
+      "cross_source_count": 9,
+      "evidence_count": 40,
+      "publication_tier": "strong",
+      "publishable": true,
+      "published_at": "2026-03-04T13:16:14+00:00"
+    },
+    {
+      "story_id": "cand_9ae4d3632525",
+      "title": "התכנון המנדטורי and cross-archive spatial-political links",
+      "theme": "spatial-political-relations",
+      "time_window": {
+        "min": "2026-03-04T13:16:13+00:00",
+        "max": "2026-03-04T13:16:14+00:00"
+      },
+      "location_scope": [
+        "JA.Loc.00372",
+        "ישראל",
+        "JA.Loc.00356",
+        "ירושלים"
+      ],
+      "summary_facts": [
+        "The cluster contains 9 linked entities around seed 'התכנון המנדטורי'.",
+        "Evidence was found in 40 mentions across 9 source archives.",
+        "The strongest co-occurrence path count is 8 between place/actor nodes."
+      ],
+      "hypotheses": [
+        "This cluster may reveal planning relations crossing communal or institutional boundaries.",
+        "Contested or parallel naming patterns may indicate narrative divergence rather than data duplication."
+      ],
+      "entities": [
+        {
+          "id": "ent_1e4839b0240fa5c0",
+          "label": "JA.Loc.00372",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00372"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_3e1cf8fb28abe12c",
+          "label": "ישראל",
+          "type": "PLACE",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_64dbfc2b58a24bd5",
+          "label": "אוסף העיר העתיקה",
+          "type": "ORG",
+          "aliases": [
+            "אוסף העיר העתיקה"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8791ff98b1cda33d",
+          "label": "אוסף קאדיר הס",
+          "type": "ORG",
+          "aliases": [
+            "אוסף קאדיר הס"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_93e80eb2c7705c7b",
+          "label": "אוסף בית המודל",
+          "type": "ORG",
+          "aliases": [
+            "אוסף בית המודל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_b1298ed24c0bd81b",
+          "label": "התכנון המנדטורי",
+          "type": "ORG",
+          "aliases": [
+            "התכנון המנדטורי"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_cd25a794c1f5ae94",
+          "label": "JA.Loc.00356",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00356"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_d4ca8027c10202e4",
+          "label": "ירושלים",
+          "type": "PLACE",
+          "aliases": [
+            "ירושלים"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_f33bbe6a3763d096",
+          "label": "תיקי תיעוד",
+          "type": "ORG",
+          "aliases": [
+            "תיקי תיעוד"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": [
+        {
+          "source_entity": "ent_b1298ed24c0bd81b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_cd25a794c1f5ae94",
+          "confidence": 1.0
+        },
+        {
+          "source_entity": "ent_b1298ed24c0bd81b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_d4ca8027c10202e4",
+          "confidence": 1.0
+        },
+        {
+          "source_entity": "ent_b1298ed24c0bd81b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_3e1cf8fb28abe12c",
+          "confidence": 0.8
+        },
+        {
+          "source_entity": "ent_b1298ed24c0bd81b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8791ff98b1cda33d",
+          "confidence": 0.8
+        },
+        {
+          "source_entity": "ent_b1298ed24c0bd81b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_f33bbe6a3763d096",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "source_entity": "ent_b1298ed24c0bd81b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_1e4839b0240fa5c0",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_b1298ed24c0bd81b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_64dbfc2b58a24bd5",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_b1298ed24c0bd81b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_93e80eb2c7705c7b",
+          "confidence": 0.65
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4686",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4686",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4687",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4687",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4693",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4693",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4700",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4700",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4701",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4701",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4706",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4706",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4683",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4683",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4684",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4684",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4686",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4686",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4687",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4687",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4688",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4688",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4689",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4689",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4690",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4690",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4691",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4691",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4693",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4693",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4695",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4695",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4697",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4697",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4698",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4698",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4700",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4700",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4701",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4701",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4702",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4702",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4664",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4664",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "ent_b1298ed24c0bd81b",
+          "to": "ent_cd25a794c1f5ae94",
+          "weight": 19.0,
+          "doc_count": 19
+        },
+        {
+          "from": "ent_b1298ed24c0bd81b",
+          "to": "ent_d4ca8027c10202e4",
+          "weight": 16.0,
+          "doc_count": 16
+        },
+        {
+          "from": "ent_b1298ed24c0bd81b",
+          "to": "ent_3e1cf8fb28abe12c",
+          "weight": 5.0,
+          "doc_count": 5
+        },
+        {
+          "from": "ent_b1298ed24c0bd81b",
+          "to": "ent_8791ff98b1cda33d",
+          "weight": 5.0,
+          "doc_count": 5
+        },
+        {
+          "from": "ent_b1298ed24c0bd81b",
+          "to": "ent_f33bbe6a3763d096",
+          "weight": 3.0,
+          "doc_count": 3
+        },
+        {
+          "from": "ent_b1298ed24c0bd81b",
+          "to": "ent_1e4839b0240fa5c0",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_b1298ed24c0bd81b",
+          "to": "ent_64dbfc2b58a24bd5",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_b1298ed24c0bd81b",
+          "to": "ent_93e80eb2c7705c7b",
+          "weight": 2.0,
+          "doc_count": 2
+        }
+      ],
+      "uncertainty_notes": [
+        "Entity alignment preserves multilingual aliases and contested names.",
+        "Hypotheses are exploratory and require archival validation."
+      ],
+      "viz_hints": {
+        "recommended_seed": "ent_b1298ed24c0bd81b",
+        "timeline_bins": "decade",
+        "map_anchor_entities": [
+          "ent_1e4839b0240fa5c0",
+          "ent_3e1cf8fb28abe12c",
+          "ent_cd25a794c1f5ae94",
+          "ent_d4ca8027c10202e4"
+        ],
+        "edge_focus": "cross_source_bridges"
+      },
+      "quality_score": 43.8,
+      "cross_source_count": 9,
+      "evidence_count": 40,
+      "publication_tier": "strong",
+      "publishable": true,
+      "published_at": "2026-03-04T13:16:14+00:00"
+    },
+    {
+      "story_id": "cand_2259f2dcfa5f",
+      "title": "ירושלים and cross-archive spatial-political links",
+      "theme": "spatial-political-relations",
+      "time_window": {
+        "min": "2026-03-04T13:16:13+00:00",
+        "max": "2026-03-04T13:16:14+00:00"
+      },
+      "location_scope": [
+        "JA.Loc.00356",
+        "ירושלים"
+      ],
+      "summary_facts": [
+        "The cluster contains 9 linked entities around seed 'ירושלים'.",
+        "Evidence was found in 40 mentions across 8 source archives.",
+        "The strongest co-occurrence path count is 8 between place/actor nodes."
+      ],
+      "hypotheses": [
+        "This cluster may reveal planning relations crossing communal or institutional boundaries.",
+        "Contested or parallel naming patterns may indicate narrative divergence rather than data duplication."
+      ],
+      "entities": [
+        {
+          "id": "ent_4f8cdce46fc0e2ae",
+          "label": "אבן בטוטה, ירושלים",
+          "type": "CONCEPT",
+          "aliases": [
+            "אבן בטוטה, ירושלים"
+          ],
+          "language": "he",
+          "confidence": 0.82
+        },
+        {
+          "id": "ent_64dbfc2b58a24bd5",
+          "label": "אוסף העיר העתיקה",
+          "type": "ORG",
+          "aliases": [
+            "אוסף העיר העתיקה"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_6a00b2131517366c",
+          "label": "JA.Loc.00005",
+          "type": "CONCEPT",
+          "aliases": [
+            "JA.Loc.00005"
+          ],
+          "language": "en",
+          "confidence": 0.82
+        },
+        {
+          "id": "ent_700950cb93f2322b",
+          "label": "רחוב אבן בטוטה",
+          "type": "CONCEPT",
+          "aliases": [
+            "רחוב אבן בטוטה"
+          ],
+          "language": "he",
+          "confidence": 0.92
+        },
+        {
+          "id": "ent_8791ff98b1cda33d",
+          "label": "אוסף קאדיר הס",
+          "type": "ORG",
+          "aliases": [
+            "אוסף קאדיר הס"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_b1298ed24c0bd81b",
+          "label": "התכנון המנדטורי",
+          "type": "ORG",
+          "aliases": [
+            "התכנון המנדטורי"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_cd25a794c1f5ae94",
+          "label": "JA.Loc.00356",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00356"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_d4ca8027c10202e4",
+          "label": "ירושלים",
+          "type": "PLACE",
+          "aliases": [
+            "ירושלים"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_f33bbe6a3763d096",
+          "label": "תיקי תיעוד",
+          "type": "ORG",
+          "aliases": [
+            "תיקי תיעוד"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": [
+        {
+          "source_entity": "ent_d4ca8027c10202e4",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_cd25a794c1f5ae94",
+          "confidence": 1.0
+        },
+        {
+          "source_entity": "ent_d4ca8027c10202e4",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_b1298ed24c0bd81b",
+          "confidence": 1.0
+        },
+        {
+          "source_entity": "ent_d4ca8027c10202e4",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_64dbfc2b58a24bd5",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "source_entity": "ent_d4ca8027c10202e4",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8791ff98b1cda33d",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_d4ca8027c10202e4",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_f33bbe6a3763d096",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_d4ca8027c10202e4",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_4f8cdce46fc0e2ae",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_d4ca8027c10202e4",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_6a00b2131517366c",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_d4ca8027c10202e4",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_700950cb93f2322b",
+          "confidence": 0.6000000000000001
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "items:4683",
+          "quote_or_field": "dcterms:description: אבן בטוטה, ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4683",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4683",
+          "quote_or_field": "o:title: רחוב אבן בטוטה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4683",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4683",
+          "quote_or_field": "dcterms:title: רחוב אבן בטוטה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4683",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4683",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4683",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4684",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4684",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4686",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4686",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4687",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4687",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4688",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4688",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4689",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4689",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4690",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4690",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4691",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4691",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4693",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4693",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4695",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4695",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4697",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4697",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4698",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4698",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4700",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4700",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4701",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4701",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4702",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4702",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4664",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4664",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4665",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4665",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4666",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4666",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4668",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4668",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4669",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4669",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4672",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4672",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4676",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4676",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "ent_d4ca8027c10202e4",
+          "to": "ent_cd25a794c1f5ae94",
+          "weight": 24.0,
+          "doc_count": 24
+        },
+        {
+          "from": "ent_d4ca8027c10202e4",
+          "to": "ent_b1298ed24c0bd81b",
+          "weight": 16.0,
+          "doc_count": 16
+        },
+        {
+          "from": "ent_d4ca8027c10202e4",
+          "to": "ent_64dbfc2b58a24bd5",
+          "weight": 6.0,
+          "doc_count": 6
+        },
+        {
+          "from": "ent_d4ca8027c10202e4",
+          "to": "ent_8791ff98b1cda33d",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_d4ca8027c10202e4",
+          "to": "ent_f33bbe6a3763d096",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_d4ca8027c10202e4",
+          "to": "ent_4f8cdce46fc0e2ae",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_d4ca8027c10202e4",
+          "to": "ent_6a00b2131517366c",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_d4ca8027c10202e4",
+          "to": "ent_700950cb93f2322b",
+          "weight": 1.0,
+          "doc_count": 1
+        }
+      ],
+      "uncertainty_notes": [
+        "Entity alignment preserves multilingual aliases and contested names.",
+        "Hypotheses are exploratory and require archival validation."
+      ],
+      "viz_hints": {
+        "recommended_seed": "ent_d4ca8027c10202e4",
+        "timeline_bins": "decade",
+        "map_anchor_entities": [
+          "ent_cd25a794c1f5ae94",
+          "ent_d4ca8027c10202e4"
+        ],
+        "edge_focus": "cross_source_bridges"
+      },
+      "quality_score": 42.0,
+      "cross_source_count": 8,
+      "evidence_count": 40,
+      "publication_tier": "strong",
+      "publishable": true,
+      "published_at": "2026-03-04T13:16:14+00:00"
+    },
+    {
+      "story_id": "cand_8b8ab8c7aed3",
+      "title": "אוסף קאדיר הס and cross-archive spatial-political links",
+      "theme": "spatial-political-relations",
+      "time_window": {
+        "min": "2026-03-04T13:16:13+00:00",
+        "max": "2026-03-04T13:16:14+00:00"
+      },
+      "location_scope": [
+        "JA.Loc.00372",
+        "ישראל",
+        "הרשות הפלסטינית",
+        "JA.Loc.00356",
+        "ירושלים",
+        "JA.Loc.00322"
+      ],
+      "summary_facts": [
+        "The cluster contains 9 linked entities around seed 'אוסף קאדיר הס'.",
+        "Evidence was found in 40 mentions across 9 source archives.",
+        "The strongest co-occurrence path count is 8 between place/actor nodes."
+      ],
+      "hypotheses": [
+        "This cluster may reveal planning relations crossing communal or institutional boundaries.",
+        "Contested or parallel naming patterns may indicate narrative divergence rather than data duplication."
+      ],
+      "entities": [
+        {
+          "id": "ent_1e4839b0240fa5c0",
+          "label": "JA.Loc.00372",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00372"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_3e1cf8fb28abe12c",
+          "label": "ישראל",
+          "type": "PLACE",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_64dbfc2b58a24bd5",
+          "label": "אוסף העיר העתיקה",
+          "type": "ORG",
+          "aliases": [
+            "אוסף העיר העתיקה"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_839667411ddcc2b3",
+          "label": "הרשות הפלסטינית",
+          "type": "PLACE",
+          "aliases": [
+            "הרשות הפלסטינית"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8791ff98b1cda33d",
+          "label": "אוסף קאדיר הס",
+          "type": "ORG",
+          "aliases": [
+            "אוסף קאדיר הס"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_b1298ed24c0bd81b",
+          "label": "התכנון המנדטורי",
+          "type": "ORG",
+          "aliases": [
+            "התכנון המנדטורי"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_cd25a794c1f5ae94",
+          "label": "JA.Loc.00356",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00356"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_d4ca8027c10202e4",
+          "label": "ירושלים",
+          "type": "PLACE",
+          "aliases": [
+            "ירושלים"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_ebb12cc66457d515",
+          "label": "JA.Loc.00322",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00322"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        }
+      ],
+      "relationships": [
+        {
+          "source_entity": "ent_8791ff98b1cda33d",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_b1298ed24c0bd81b",
+          "confidence": 0.8
+        },
+        {
+          "source_entity": "ent_8791ff98b1cda33d",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_839667411ddcc2b3",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_8791ff98b1cda33d",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_ebb12cc66457d515",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_8791ff98b1cda33d",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_1e4839b0240fa5c0",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_8791ff98b1cda33d",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_3e1cf8fb28abe12c",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_8791ff98b1cda33d",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_cd25a794c1f5ae94",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_8791ff98b1cda33d",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_d4ca8027c10202e4",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_8791ff98b1cda33d",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_64dbfc2b58a24bd5",
+          "confidence": 0.65
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4686",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4686",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4687",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4687",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4693",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4693",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4700",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4700",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4701",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4701",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4706",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4706",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4683",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4683",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4684",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4684",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4686",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4686",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4687",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4687",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4688",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4688",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4689",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4689",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4690",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4690",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4691",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4691",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4693",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4693",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4695",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4695",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4697",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4697",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4698",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4698",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4700",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4700",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4701",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4701",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4702",
+          "quote_or_field": "dcterms:isPartOf: ירושלים",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4702",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4665",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4665",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4666",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4666",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4668",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4668",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4669",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4669",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "ent_8791ff98b1cda33d",
+          "to": "ent_b1298ed24c0bd81b",
+          "weight": 5.0,
+          "doc_count": 5
+        },
+        {
+          "from": "ent_8791ff98b1cda33d",
+          "to": "ent_839667411ddcc2b3",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_8791ff98b1cda33d",
+          "to": "ent_ebb12cc66457d515",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_8791ff98b1cda33d",
+          "to": "ent_1e4839b0240fa5c0",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_8791ff98b1cda33d",
+          "to": "ent_3e1cf8fb28abe12c",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_8791ff98b1cda33d",
+          "to": "ent_cd25a794c1f5ae94",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_8791ff98b1cda33d",
+          "to": "ent_d4ca8027c10202e4",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_8791ff98b1cda33d",
+          "to": "ent_64dbfc2b58a24bd5",
+          "weight": 2.0,
+          "doc_count": 2
+        }
+      ],
+      "uncertainty_notes": [
+        "Entity alignment preserves multilingual aliases and contested names.",
+        "Hypotheses are exploratory and require archival validation."
+      ],
+      "viz_hints": {
+        "recommended_seed": "ent_8791ff98b1cda33d",
+        "timeline_bins": "decade",
+        "map_anchor_entities": [
+          "ent_1e4839b0240fa5c0",
+          "ent_3e1cf8fb28abe12c",
+          "ent_839667411ddcc2b3",
+          "ent_cd25a794c1f5ae94",
+          "ent_d4ca8027c10202e4"
+        ],
+        "edge_focus": "cross_source_bridges"
+      },
+      "quality_score": 39.2,
+      "cross_source_count": 9,
+      "evidence_count": 40,
+      "publication_tier": "strong",
+      "publishable": true,
+      "published_at": "2026-03-04T13:16:14+00:00"
+    },
+    {
+      "story_id": "cand_bb68fc65a696",
+      "title": "ישראל and cross-archive spatial-political links",
+      "theme": "spatial-political-relations",
+      "time_window": {
+        "min": "2026-03-04T13:16:13+00:00",
+        "max": "2026-03-04T13:16:14+00:00"
+      },
+      "location_scope": [
+        "JA.Loc.00372",
+        "ישראל",
+        "JA.Loc.00356"
+      ],
+      "summary_facts": [
+        "The cluster contains 9 linked entities around seed 'ישראל'.",
+        "Evidence was found in 40 mentions across 9 source archives.",
+        "The strongest co-occurrence path count is 8 between place/actor nodes."
+      ],
+      "hypotheses": [
+        "This cluster may reveal planning relations crossing communal or institutional boundaries.",
+        "Contested or parallel naming patterns may indicate narrative divergence rather than data duplication."
+      ],
+      "entities": [
+        {
+          "id": "ent_0a67902308c46baf",
+          "label": "אוסף בן ציון גיני",
+          "type": "ORG",
+          "aliases": [
+            "אוסף בן ציון גיני"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_1e4839b0240fa5c0",
+          "label": "JA.Loc.00372",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00372"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_3e1cf8fb28abe12c",
+          "label": "ישראל",
+          "type": "PLACE",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_64dbfc2b58a24bd5",
+          "label": "אוסף העיר העתיקה",
+          "type": "ORG",
+          "aliases": [
+            "אוסף העיר העתיקה"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8791ff98b1cda33d",
+          "label": "אוסף קאדיר הס",
+          "type": "ORG",
+          "aliases": [
+            "אוסף קאדיר הס"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_93e80eb2c7705c7b",
+          "label": "אוסף בית המודל",
+          "type": "ORG",
+          "aliases": [
+            "אוסף בית המודל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_b1298ed24c0bd81b",
+          "label": "התכנון המנדטורי",
+          "type": "ORG",
+          "aliases": [
+            "התכנון המנדטורי"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_cd25a794c1f5ae94",
+          "label": "JA.Loc.00356",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00356"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_f33bbe6a3763d096",
+          "label": "תיקי תיעוד",
+          "type": "ORG",
+          "aliases": [
+            "תיקי תיעוד"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": [
+        {
+          "source_entity": "ent_3e1cf8fb28abe12c",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_1e4839b0240fa5c0",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "source_entity": "ent_3e1cf8fb28abe12c",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_b1298ed24c0bd81b",
+          "confidence": 0.8
+        },
+        {
+          "source_entity": "ent_3e1cf8fb28abe12c",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8791ff98b1cda33d",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_3e1cf8fb28abe12c",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_cd25a794c1f5ae94",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "source_entity": "ent_3e1cf8fb28abe12c",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_0a67902308c46baf",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "source_entity": "ent_3e1cf8fb28abe12c",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_64dbfc2b58a24bd5",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_3e1cf8fb28abe12c",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_93e80eb2c7705c7b",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_3e1cf8fb28abe12c",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_f33bbe6a3763d096",
+          "confidence": 0.65
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "dcterms:source: אוסף בן ציון גיני",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף בן ציון גיני",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "dcterms:source: אוסף בן ציון גיני",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4686",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4686",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4687",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4687",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4693",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4693",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4700",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4700",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4701",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4701",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4706",
+          "quote_or_field": "dcterms:source: אוסף העיר העתיקה",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4706",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף העיר העתיקה"
+        },
+        {
+          "doc_id": "items:4664",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4664",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4665",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4665",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4666",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4666",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4668",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4668",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4669",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4669",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4672",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4672",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4676",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4676",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4702",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4702",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "ent_3e1cf8fb28abe12c",
+          "to": "ent_1e4839b0240fa5c0",
+          "weight": 6.0,
+          "doc_count": 6
+        },
+        {
+          "from": "ent_3e1cf8fb28abe12c",
+          "to": "ent_b1298ed24c0bd81b",
+          "weight": 5.0,
+          "doc_count": 5
+        },
+        {
+          "from": "ent_3e1cf8fb28abe12c",
+          "to": "ent_8791ff98b1cda33d",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_3e1cf8fb28abe12c",
+          "to": "ent_cd25a794c1f5ae94",
+          "weight": 3.0,
+          "doc_count": 3
+        },
+        {
+          "from": "ent_3e1cf8fb28abe12c",
+          "to": "ent_0a67902308c46baf",
+          "weight": 3.0,
+          "doc_count": 3
+        },
+        {
+          "from": "ent_3e1cf8fb28abe12c",
+          "to": "ent_64dbfc2b58a24bd5",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_3e1cf8fb28abe12c",
+          "to": "ent_93e80eb2c7705c7b",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_3e1cf8fb28abe12c",
+          "to": "ent_f33bbe6a3763d096",
+          "weight": 2.0,
+          "doc_count": 2
+        }
+      ],
+      "uncertainty_notes": [
+        "Entity alignment preserves multilingual aliases and contested names.",
+        "Hypotheses are exploratory and require archival validation."
+      ],
+      "viz_hints": {
+        "recommended_seed": "ent_3e1cf8fb28abe12c",
+        "timeline_bins": "decade",
+        "map_anchor_entities": [
+          "ent_1e4839b0240fa5c0",
+          "ent_3e1cf8fb28abe12c",
+          "ent_cd25a794c1f5ae94"
+        ],
+        "edge_focus": "cross_source_bridges"
+      },
+      "quality_score": 38.4,
+      "cross_source_count": 9,
+      "evidence_count": 40,
+      "publication_tier": "strong",
+      "publishable": true,
+      "published_at": "2026-03-04T13:16:14+00:00"
+    },
+    {
+      "story_id": "cand_9f6d8ddb6380",
+      "title": "JA.Loc.00372 and cross-archive spatial-political links",
+      "theme": "spatial-political-relations",
+      "time_window": {
+        "min": "2026-03-04T13:16:13+00:00",
+        "max": "2026-03-04T13:16:14+00:00"
+      },
+      "location_scope": [
+        "JA.Loc.00372",
+        "ישראל"
+      ],
+      "summary_facts": [
+        "The cluster contains 9 linked entities around seed 'JA.Loc.00372'.",
+        "Evidence was found in 40 mentions across 9 source archives.",
+        "The strongest co-occurrence path count is 8 between place/actor nodes."
+      ],
+      "hypotheses": [
+        "This cluster may reveal planning relations crossing communal or institutional boundaries.",
+        "Contested or parallel naming patterns may indicate narrative divergence rather than data duplication."
+      ],
+      "entities": [
+        {
+          "id": "ent_0a67902308c46baf",
+          "label": "אוסף בן ציון גיני",
+          "type": "ORG",
+          "aliases": [
+            "אוסף בן ציון גיני"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_1e4839b0240fa5c0",
+          "label": "JA.Loc.00372",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00372"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_20bc036a72837d2f",
+          "label": "ישראל",
+          "type": "CONCEPT",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.92
+        },
+        {
+          "id": "ent_3e1cf8fb28abe12c",
+          "label": "ישראל",
+          "type": "PLACE",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_64dbfc2b58a24bd5",
+          "label": "אוסף העיר העתיקה",
+          "type": "ORG",
+          "aliases": [
+            "אוסף העיר העתיקה"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8791ff98b1cda33d",
+          "label": "אוסף קאדיר הס",
+          "type": "ORG",
+          "aliases": [
+            "אוסף קאדיר הס"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_93e80eb2c7705c7b",
+          "label": "אוסף בית המודל",
+          "type": "ORG",
+          "aliases": [
+            "אוסף בית המודל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_b1298ed24c0bd81b",
+          "label": "התכנון המנדטורי",
+          "type": "ORG",
+          "aliases": [
+            "התכנון המנדטורי"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_f33bbe6a3763d096",
+          "label": "תיקי תיעוד",
+          "type": "ORG",
+          "aliases": [
+            "תיקי תיעוד"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": [
+        {
+          "source_entity": "ent_1e4839b0240fa5c0",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_3e1cf8fb28abe12c",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "source_entity": "ent_1e4839b0240fa5c0",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8791ff98b1cda33d",
+          "confidence": 0.75
+        },
+        {
+          "source_entity": "ent_1e4839b0240fa5c0",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_0a67902308c46baf",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "source_entity": "ent_1e4839b0240fa5c0",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_64dbfc2b58a24bd5",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_1e4839b0240fa5c0",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_93e80eb2c7705c7b",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_1e4839b0240fa5c0",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_b1298ed24c0bd81b",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_1e4839b0240fa5c0",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_f33bbe6a3763d096",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_1e4839b0240fa5c0",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_20bc036a72837d2f",
+          "confidence": 0.6000000000000001
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "dcterms:source: אוסף בן ציון גיני",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף בן ציון גיני",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "dcterms:source: אוסף בן ציון גיני",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4664",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4664",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4665",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4665",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4666",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4666",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4668",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4668",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4669",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4669",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4672",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4672",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4676",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4676",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4702",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4702",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "o:title: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:title: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4673",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4673",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4677",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4677",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4678",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4678",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "ent_1e4839b0240fa5c0",
+          "to": "ent_3e1cf8fb28abe12c",
+          "weight": 6.0,
+          "doc_count": 6
+        },
+        {
+          "from": "ent_1e4839b0240fa5c0",
+          "to": "ent_8791ff98b1cda33d",
+          "weight": 4.0,
+          "doc_count": 4
+        },
+        {
+          "from": "ent_1e4839b0240fa5c0",
+          "to": "ent_0a67902308c46baf",
+          "weight": 3.0,
+          "doc_count": 3
+        },
+        {
+          "from": "ent_1e4839b0240fa5c0",
+          "to": "ent_64dbfc2b58a24bd5",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_1e4839b0240fa5c0",
+          "to": "ent_93e80eb2c7705c7b",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_1e4839b0240fa5c0",
+          "to": "ent_b1298ed24c0bd81b",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_1e4839b0240fa5c0",
+          "to": "ent_f33bbe6a3763d096",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_1e4839b0240fa5c0",
+          "to": "ent_20bc036a72837d2f",
+          "weight": 1.0,
+          "doc_count": 1
+        }
+      ],
+      "uncertainty_notes": [
+        "Entity alignment preserves multilingual aliases and contested names.",
+        "Hypotheses are exploratory and require archival validation."
+      ],
+      "viz_hints": {
+        "recommended_seed": "ent_1e4839b0240fa5c0",
+        "timeline_bins": "decade",
+        "map_anchor_entities": [
+          "ent_1e4839b0240fa5c0",
+          "ent_3e1cf8fb28abe12c"
+        ],
+        "edge_focus": "cross_source_bridges"
+      },
+      "quality_score": 37.4,
+      "cross_source_count": 9,
+      "evidence_count": 40,
+      "publication_tier": "strong",
+      "publishable": true,
+      "published_at": "2026-03-04T13:16:14+00:00"
+    },
+    {
+      "story_id": "cand_23719fb5cea1",
+      "title": "אוסף בית המודל and cross-archive spatial-political links",
+      "theme": "spatial-political-relations",
+      "time_window": {
+        "min": "2026-03-04T13:16:13+00:00",
+        "max": "2026-03-04T13:16:14+00:00"
+      },
+      "location_scope": [
+        "JA.Loc.00372",
+        "ישראל"
+      ],
+      "summary_facts": [
+        "The cluster contains 9 linked entities around seed 'אוסף בית המודל'.",
+        "Evidence was found in 40 mentions across 9 source archives.",
+        "The strongest co-occurrence path count is 8 between place/actor nodes."
+      ],
+      "hypotheses": [
+        "This cluster may reveal planning relations crossing communal or institutional boundaries.",
+        "Contested or parallel naming patterns may indicate narrative divergence rather than data duplication."
+      ],
+      "entities": [
+        {
+          "id": "ent_1e4839b0240fa5c0",
+          "label": "JA.Loc.00372",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00372"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_20bc036a72837d2f",
+          "label": "ישראל",
+          "type": "CONCEPT",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.92
+        },
+        {
+          "id": "ent_3e1cf8fb28abe12c",
+          "label": "ישראל",
+          "type": "PLACE",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_64dbfc2b58a24bd5",
+          "label": "אוסף העיר העתיקה",
+          "type": "ORG",
+          "aliases": [
+            "אוסף העיר העתיקה"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8791ff98b1cda33d",
+          "label": "אוסף קאדיר הס",
+          "type": "ORG",
+          "aliases": [
+            "אוסף קאדיר הס"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8f2f2e273e408116",
+          "label": "Israel",
+          "type": "CONCEPT",
+          "aliases": [
+            "Israel"
+          ],
+          "language": "en",
+          "confidence": 0.74
+        },
+        {
+          "id": "ent_93e80eb2c7705c7b",
+          "label": "אוסף בית המודל",
+          "type": "ORG",
+          "aliases": [
+            "אוסף בית המודל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_b1298ed24c0bd81b",
+          "label": "התכנון המנדטורי",
+          "type": "ORG",
+          "aliases": [
+            "התכנון המנדטורי"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_f33bbe6a3763d096",
+          "label": "תיקי תיעוד",
+          "type": "ORG",
+          "aliases": [
+            "תיקי תיעוד"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": [
+        {
+          "source_entity": "ent_93e80eb2c7705c7b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_1e4839b0240fa5c0",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_93e80eb2c7705c7b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_3e1cf8fb28abe12c",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_93e80eb2c7705c7b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_64dbfc2b58a24bd5",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_93e80eb2c7705c7b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8791ff98b1cda33d",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_93e80eb2c7705c7b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_b1298ed24c0bd81b",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_93e80eb2c7705c7b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_f33bbe6a3763d096",
+          "confidence": 0.65
+        },
+        {
+          "source_entity": "ent_93e80eb2c7705c7b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_20bc036a72837d2f",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_93e80eb2c7705c7b",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8f2f2e273e408116",
+          "confidence": 0.6000000000000001
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4664",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4664",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4685",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4685",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4694",
+          "quote_or_field": "dcterms:source: תיקי תיעוד",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4694",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4665",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4665",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4666",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4666",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4668",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4668",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4669",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4669",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4672",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4672",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4676",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4676",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4702",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4702",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "o:title: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:title: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4673",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4673",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4677",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4677",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4678",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4678",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "bibo:shortDescription: Israel",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: התכנון המנדטורי",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "ent_93e80eb2c7705c7b",
+          "to": "ent_1e4839b0240fa5c0",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_93e80eb2c7705c7b",
+          "to": "ent_3e1cf8fb28abe12c",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_93e80eb2c7705c7b",
+          "to": "ent_64dbfc2b58a24bd5",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_93e80eb2c7705c7b",
+          "to": "ent_8791ff98b1cda33d",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_93e80eb2c7705c7b",
+          "to": "ent_b1298ed24c0bd81b",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_93e80eb2c7705c7b",
+          "to": "ent_f33bbe6a3763d096",
+          "weight": 2.0,
+          "doc_count": 2
+        },
+        {
+          "from": "ent_93e80eb2c7705c7b",
+          "to": "ent_20bc036a72837d2f",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_93e80eb2c7705c7b",
+          "to": "ent_8f2f2e273e408116",
+          "weight": 1.0,
+          "doc_count": 1
+        }
+      ],
+      "uncertainty_notes": [
+        "Entity alignment preserves multilingual aliases and contested names.",
+        "Hypotheses are exploratory and require archival validation."
+      ],
+      "viz_hints": {
+        "recommended_seed": "ent_93e80eb2c7705c7b",
+        "timeline_bins": "decade",
+        "map_anchor_entities": [
+          "ent_1e4839b0240fa5c0",
+          "ent_3e1cf8fb28abe12c"
+        ],
+        "edge_focus": "cross_source_bridges"
+      },
+      "quality_score": 35.8,
+      "cross_source_count": 9,
+      "evidence_count": 40,
+      "publication_tier": "strong",
+      "publishable": true,
+      "published_at": "2026-03-04T13:16:14+00:00"
+    },
+    {
+      "story_id": "cand_4ff373e46fa6",
+      "title": "ישראל and cross-archive spatial-political links",
+      "theme": "spatial-political-relations",
+      "time_window": {
+        "min": "2026-03-04T13:16:13+00:00",
+        "max": "2026-03-04T13:16:14+00:00"
+      },
+      "location_scope": [
+        "JA.Loc.00372",
+        "ישראל"
+      ],
+      "summary_facts": [
+        "The cluster contains 9 linked entities around seed 'ישראל'.",
+        "Evidence was found in 40 mentions across 8 source archives.",
+        "The strongest co-occurrence path count is 8 between place/actor nodes."
+      ],
+      "hypotheses": [
+        "This cluster may reveal planning relations crossing communal or institutional boundaries.",
+        "Contested or parallel naming patterns may indicate narrative divergence rather than data duplication."
+      ],
+      "entities": [
+        {
+          "id": "ent_1e4839b0240fa5c0",
+          "label": "JA.Loc.00372",
+          "type": "PLACE",
+          "aliases": [
+            "JA.Loc.00372"
+          ],
+          "language": "en",
+          "confidence": 0.8
+        },
+        {
+          "id": "ent_20bc036a72837d2f",
+          "label": "ישראל",
+          "type": "CONCEPT",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.92
+        },
+        {
+          "id": "ent_3e1cf8fb28abe12c",
+          "label": "ישראל",
+          "type": "PLACE",
+          "aliases": [
+            "ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_64dbfc2b58a24bd5",
+          "label": "אוסף העיר העתיקה",
+          "type": "ORG",
+          "aliases": [
+            "אוסף העיר העתיקה"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8791ff98b1cda33d",
+          "label": "אוסף קאדיר הס",
+          "type": "ORG",
+          "aliases": [
+            "אוסף קאדיר הס"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_8f2f2e273e408116",
+          "label": "Israel",
+          "type": "CONCEPT",
+          "aliases": [
+            "Israel"
+          ],
+          "language": "en",
+          "confidence": 0.74
+        },
+        {
+          "id": "ent_93e80eb2c7705c7b",
+          "label": "אוסף בית המודל",
+          "type": "ORG",
+          "aliases": [
+            "אוסף בית המודל"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        },
+        {
+          "id": "ent_af0800c22da52e1a",
+          "label": "ישראל, ישראל",
+          "type": "CONCEPT",
+          "aliases": [
+            "ישראל, ישראל"
+          ],
+          "language": "he",
+          "confidence": 0.82
+        },
+        {
+          "id": "ent_b1298ed24c0bd81b",
+          "label": "התכנון המנדטורי",
+          "type": "ORG",
+          "aliases": [
+            "התכנון המנדטורי"
+          ],
+          "language": "he",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": [
+        {
+          "source_entity": "ent_20bc036a72837d2f",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_1e4839b0240fa5c0",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_20bc036a72837d2f",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_3e1cf8fb28abe12c",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_20bc036a72837d2f",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_64dbfc2b58a24bd5",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_20bc036a72837d2f",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8791ff98b1cda33d",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_20bc036a72837d2f",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_8f2f2e273e408116",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_20bc036a72837d2f",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_93e80eb2c7705c7b",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_20bc036a72837d2f",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_af0800c22da52e1a",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "source_entity": "ent_20bc036a72837d2f",
+          "relation": "CO_OCCURS",
+          "target_entity": "ent_b1298ed24c0bd81b",
+          "confidence": 0.6000000000000001
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף בית המודל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:description: ישראל, ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "ric-o:location: JA.Loc.00372",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4665",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4665",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4666",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4666",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4668",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4668",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4669",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4669",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4672",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4672",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4676",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4676",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4692",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4692",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4696",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4696",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4699",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4699",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4702",
+          "quote_or_field": "dcterms:source: אוסף קאדיר הס",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4702",
+          "timestamp": "2026-03-04T13:16:13+00:00",
+          "source_archive": "אוסף קאדיר הס | התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "o:title: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:title: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4670",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4670",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4671",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4671",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף קאדיר הס"
+        },
+        {
+          "doc_id": "items:4673",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4673",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4674",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4674",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4677",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4677",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4678",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4678",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4679",
+          "quote_or_field": "dcterms:isPartOf: ישראל",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4679",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בן ציון גיני"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "bibo:shortDescription: Israel",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4667",
+          "quote_or_field": "dcterms:source: התכנון המנדטורי",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4667",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4673",
+          "quote_or_field": "dcterms:source: התכנון המנדטורי",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4673",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4675",
+          "quote_or_field": "dcterms:source: התכנון המנדטורי",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4675",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "אוסף בית המודל | אוסף בן ציון גיני | אוסף העיר העתיקה | אוסף קאדיר הס | התכנון המנדטורי | תיקי תיעוד"
+        },
+        {
+          "doc_id": "items:4677",
+          "quote_or_field": "dcterms:source: התכנון המנדטורי",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4677",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        },
+        {
+          "doc_id": "items:4678",
+          "quote_or_field": "dcterms:source: התכנון המנדטורי",
+          "endpoint": "items",
+          "uri": "https://jmurbanhist.dh.huji.ac.il/archive/api/items/4678",
+          "timestamp": "2026-03-04T13:16:14+00:00",
+          "source_archive": "התכנון המנדטורי"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "ent_20bc036a72837d2f",
+          "to": "ent_1e4839b0240fa5c0",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_20bc036a72837d2f",
+          "to": "ent_3e1cf8fb28abe12c",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_20bc036a72837d2f",
+          "to": "ent_64dbfc2b58a24bd5",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_20bc036a72837d2f",
+          "to": "ent_8791ff98b1cda33d",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_20bc036a72837d2f",
+          "to": "ent_8f2f2e273e408116",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_20bc036a72837d2f",
+          "to": "ent_93e80eb2c7705c7b",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_20bc036a72837d2f",
+          "to": "ent_af0800c22da52e1a",
+          "weight": 1.0,
+          "doc_count": 1
+        },
+        {
+          "from": "ent_20bc036a72837d2f",
+          "to": "ent_b1298ed24c0bd81b",
+          "weight": 1.0,
+          "doc_count": 1
+        }
+      ],
+      "uncertainty_notes": [
+        "Entity alignment preserves multilingual aliases and contested names.",
+        "Hypotheses are exploratory and require archival validation."
+      ],
+      "viz_hints": {
+        "recommended_seed": "ent_20bc036a72837d2f",
+        "timeline_bins": "decade",
+        "map_anchor_entities": [
+          "ent_1e4839b0240fa5c0",
+          "ent_3e1cf8fb28abe12c"
+        ],
+        "edge_focus": "cross_source_bridges"
+      },
+      "quality_score": 32.6,
+      "cross_source_count": 8,
+      "evidence_count": 40,
+      "publication_tier": "strong",
+      "publishable": true,
+      "published_at": "2026-03-04T13:16:14+00:00"
+    }
+  ],
+  "metrics": {
+    "total": 8,
+    "strong": 8,
+    "candidate": 0,
+    "last_ingest_at": ""
+  }
+}

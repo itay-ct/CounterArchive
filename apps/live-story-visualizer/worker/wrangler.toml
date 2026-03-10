@@ -1,0 +1,19 @@
+name = "live-story-visualizer"
+main = "src/index.js"
+compatibility_date = "2026-03-10"
+
+[assets]
+directory = "../web"
+binding = "ASSETS"
+run_worker_first = ["/api/*", "/ws", "/healthz"]
+
+[[durable_objects.bindings]]
+name = "STORY_HUB"
+class_name = "StoryHub"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["StoryHub"]
+
+[vars]
+UI_TITLE = "Live Story Visualizer"

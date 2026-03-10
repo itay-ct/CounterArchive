@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Story Visualizer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=IBM+Plex+Sans+Hebrew:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape shape-a"></div>
+    <div class="bg-shape shape-b"></div>
+
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Counter-Archives</p>
+        <h1>Live Story Visualizer</h1>
+      </div>
+      <div class="status-wrap">
+        <span id="live-status" class="status-dot offline"></span>
+        <span id="live-status-label">Connecting…</span>
+      </div>
+    </header>
+
+    <section class="metrics" id="metrics">
+      <article>
+        <h2>Total</h2>
+        <p id="metric-total">0</p>
+      </article>
+      <article>
+        <h2>Strong</h2>
+        <p id="metric-strong">0</p>
+      </article>
+      <article>
+        <h2>Candidate</h2>
+        <p id="metric-candidate">0</p>
+      </article>
+      <article>
+        <h2>Last Ingest</h2>
+        <p id="metric-last">-</p>
+      </article>
+    </section>
+
+    <main class="layout">
+      <aside class="panel story-feed">
+        <div class="panel-head">
+          <h2>Live Feed</h2>
+          <select id="tier-filter" aria-label="Publication tier filter">
+            <option value="all">All</option>
+            <option value="strong">Strong</option>
+            <option value="candidate">Candidate</option>
+          </select>
+        </div>
+        <ul id="story-list"></ul>
+      </aside>
+
+      <section class="panel viz-panel">
+        <div class="panel-head">
+          <h2 id="story-title">Select a story</h2>
+          <p id="story-subtitle">Choose a story from the feed to inspect entities and evidence.</p>
+        </div>
+        <div class="chart-grid">
+          <div id="graph-chart" class="chart-box"></div>
+          <div id="timeline-chart" class="chart-box"></div>
+        </div>
+      </section>
+
+      <aside class="panel detail-panel">
+        <section>
+          <h3>Facts</h3>
+          <ul id="facts-list"></ul>
+        </section>
+        <section>
+          <h3>Hypotheses</h3>
+          <ul id="hypotheses-list"></ul>
+        </section>
+        <section>
+          <h3>Evidence</h3>
+          <ul id="evidence-list"></ul>
+        </section>
+      </aside>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

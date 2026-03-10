@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Worker tooling
+node_modules/
+.wrangler/
+
+# Environment files
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+
+# Local outputs and scratch
+outputs/
+*.log
+*.tmp
